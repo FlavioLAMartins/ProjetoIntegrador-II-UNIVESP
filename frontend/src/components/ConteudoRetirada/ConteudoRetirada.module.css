@@ -1,0 +1,72 @@
+.conteudoRetirada h1 {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.25em;
+    color: rgb(255, 255, 255);
+    background-color:  rgb(23, 74, 168);
+    font-weight: 550;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+  }
+
+.conteudoRetirada h2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.25em;
+    color: rgb(255, 255, 255);
+    background-color:  rgb(23, 74, 168);
+    font-weight: 650;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+.conteudoRetirada input {
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    width: 535px;
+  }
+
+.conteudoRetirada select {
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    width: 535px;
+  }
+  
+.conteudoRetirada tr {
+  color: rgb(255, 255, 255);
+  background-color:  rgb(50, 102, 199);
+
+  }
+
+  .conteudoRetirada td {
+    color: rgb(37, 92, 129);
+    background-color: rgb(175, 215, 223);
+  
+    }
+
+.conteudoRetirada  form {
+      width: 550px;
+      flex-direction: column;
+      align-items: center;
+      padding: 0.5em;
+      color: rgb(37, 92, 129);
+      background-color: rgb(175, 215, 223);
+      font-weight: 650;
+      font-family: 'Open Sans', sans-serif;
+      margin: 0 auto;
+    }
+  
+.conteudoRetirada table {
+      width:1115px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 450;
+    }
+
+.conteudoRetirada {
+    background-color: #f1f1f1;
+}

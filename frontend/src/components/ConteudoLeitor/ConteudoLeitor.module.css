@@ -1,0 +1,71 @@
+.conteudoleitor h1 {
+  width: 412px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.25em;
+  color: rgb(255, 255, 255);
+  background-color:  rgb(23, 74, 168);
+  font-weight: 650;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  }
+
+  .conteudoleitor h2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.25em;
+  color: rgb(255, 255, 255);
+  background-color:  rgb(23, 74, 168);
+  font-weight: 650;
+  font-family: 'Open Sans', sans-serif;
+  }
+  
+.conteudoleitor input {
+  flex-direction:column;
+  align-items: center;
+  justify-content:center;
+  width: 390px;
+  }
+  
+.conteudoleitor  form {
+  width: 412px;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5em;
+  color: rgb(37, 92, 129);
+  background-color: rgb(175, 215, 223);
+  font-weight: 750;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+}
+
+.conteudoleitor tr {
+  color: rgb(255, 255, 255);
+  background-color:  rgb(50, 102, 199);
+
+  }
+
+.conteudoleitor td {
+    color: rgb(37, 92, 129);
+    background-color: rgb(175, 215, 223);
+  
+  }
+
+         
+.conteudoleitor table {
+  background-color: rgb(175, 215, 223);
+  color: rgb(37, 92, 129);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 450;
+  justify-content:space-between;
+  flex-direction: column;
+  align-items:center;
+  width: 100%;
+}
+
+.conteudoleitor {
+  background-color: #f1f1f1;
+}

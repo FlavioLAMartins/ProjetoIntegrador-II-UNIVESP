@@ -1,0 +1,19 @@
+.footer {
+    position:static;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(10, 54, 136);
+    color:beige;
+    border-top: 1 px solid;
+    padding-block: 1em;
+    border-top: 2px solid #e7e6e4;
+
+}
+
+.footer h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+}
