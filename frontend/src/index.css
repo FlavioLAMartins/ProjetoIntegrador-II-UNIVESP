@@ -10,3 +10,14 @@ body,
 #root {
   width: 100%;
 }
+
+
+
+/* variáveis de cor */
+:root {
+  --color-primary: #fafafa;
+  --color-secundary: #646464;
+  --color-background: #E5E5E5;
+  --color-text: #312e2e;
+}
+

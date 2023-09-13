@@ -10,18 +10,35 @@ function Header() {
 
   return (
     <nav className={Styles.header}>
-      <Link to="/home">
-        <span>
-          {' '}
-          📚 Biblio Manager<h6>O seu gerenciador de biblioteca </h6>{' '}
-        </span>
+      <Link to="/home" className={Styles.logo}>
+        <span>📚 Biblio Manager</span>
       </Link>
       {!isLoginPage && (
         <nav>
-          <Link to="/home">Home</Link>
-          <Link to="/livro">Livros</Link>
-          <Link to="/leitor">Leitor</Link>
-          <Link to="/retirada">Retirada</Link>
+          <ul>
+            <li
+              className={location.pathname === '/home' ? Styles.selected : ''}
+            >
+              <Link to="/home">Home</Link>
+            </li>
+            <li
+              className={location.pathname === '/livro' ? Styles.selected : ''}
+            >
+              <Link to="/livro">Livros</Link>
+            </li>
+            <li
+              className={location.pathname === '/leitor' ? Styles.selected : ''}
+            >
+              <Link to="/leitor">Leitor</Link>
+            </li>
+            <li
+              className={
+                location.pathname === '/retirada' ? Styles.selected : ''
+              }
+            >
+              <Link to="/retirada">Retirada</Link>
+            </li>
+          </ul>
         </nav>
       )}
     </nav>
