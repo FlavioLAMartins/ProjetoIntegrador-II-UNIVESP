@@ -19,31 +19,31 @@ function Home() {
                     <tr>
                         <td>Cadastramento de Livros</td>
                         <td>
-                        <Link className='btn btn-info'to="/livro">Acessar</Link>
+                        <Link className='btn btn-secondary'to="/livro">Acessar</Link>
                         </td>
                     </tr>
                     <tr>
                         <td>Cadastramento de Leitores</td>
                         <td>
-                        <Link className='btn btn-info'to="/leitor">Acessar</Link>
+                        <Link className='btn btn-secondary'to="/leitor">Acessar</Link>
                         </td>
                     </tr>
                     <tr>
                         <td>Registro de Retiradas</td>
                         <td>
-                        <Link className='btn btn-info'to="/retirada">Acessar</Link>
+                        <Link className='btn btn-secondary'to="/retirada">Acessar</Link>
                         </td>
                     </tr>
                     <tr>
                         <td>Relatório de Devoluções</td>
                         <td>
-                        <Link className='btn btn-info'to="/devolucao">Acessar</Link>
+                        <Link className='btn btn-secondary'to="/devolucao">Acessar</Link>
                         </td>
                     </tr>
                     <tr>
                         <td>Sair do Sisitema</td>
                         <td>
-                        <Link className='btn btn-warning'to="/"> Log Out </Link> 
+                        <Link className='btn btn-dark'to="/"> Log Out </Link> 
                         </td>
                     </tr>
                 </tbody>

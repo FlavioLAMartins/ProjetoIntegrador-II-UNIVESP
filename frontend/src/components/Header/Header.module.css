@@ -1,5 +1,5 @@
 .header {
-    background-color: var(--color-primary);
+    background-color: var(--color-background);
     border-bottom: 2px solid #e7e6e4;
     font-weight: 750;
     font-family: 'Open Sans', sans-serif;
@@ -31,7 +31,7 @@ ul li {
 }
 
 nav ul li a {
-    color: var(--color-text);
+    color: var(--color-textblack);
     padding: 0px 15px;
 }
 nav ul li a:hover {
@@ -40,7 +40,7 @@ nav ul li a:hover {
 
 .header span {
     font-size: 1.5em;
-    color: var(--color-text);
+    color: var(--color-textblack);
     font-weight: 550;    
 }
 
@@ -50,7 +50,7 @@ nav span a {
 
 
 .selected {
-    color:var(--color-text);
+    color:var(--color-textblack);
     box-shadow: 
     inset 5px 0px 5px rgba(0, 0, 0, 0.1), /* Sombra à direita */
     inset -5px 0px 5px rgba(0, 0, 0, 0.1); /* Sombra à esquerda */

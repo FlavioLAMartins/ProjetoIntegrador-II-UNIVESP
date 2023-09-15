@@ -15,9 +15,12 @@ body,
 
 /* variáveis de cor */
 :root {
-  --color-primary: #fafafa;
+  --color-primary: #343a40;
   --color-secundary: #646464;
-  --color-background: #E5E5E5;
-  --color-text: #312e2e;
+  --color-tertiary: #6c757d;
+  --color-lightgray:#dee2e6;
+  --color-background: #f8f9fa;
+  --color-textblack: #212529;
+  --color-textwhite: #ffffff;
 }
 
