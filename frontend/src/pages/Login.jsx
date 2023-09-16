@@ -68,9 +68,13 @@ function Login() {
 
     //tabela retorna os dados do db com botão para alterar e exluir
   return (
-      <div className="container"> <br/> <br/>
+      <div className="container"> <br/> <br/> <br /> <br />
+    <span className="titlelogin">
+      <div>
         <h3> Seja bem vindo!</h3>
         <h3> Faça o login para acessar o sistema</h3>
+        </div>
+      </span>
         <form onSubmit={handleSubmit}>
           <div className="col-3">
             <div>
@@ -87,7 +91,7 @@ function Login() {
             </div>
             
             <br/> 
-            <Link className='btn btn-info'to="/home">Acessar</Link>          
+            <Link className='btn btn-dark'to="/home">Acessar</Link>          
           </div>
         </form>
         <br/>

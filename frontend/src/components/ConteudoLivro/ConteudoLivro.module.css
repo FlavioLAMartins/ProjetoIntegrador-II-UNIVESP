@@ -5,10 +5,12 @@
     align-items: center;
     padding: 0.25em;
     color: rgb(255, 255, 255);
-    background-color:  rgb(23, 74, 168);
+    background-color: var(--color-primary);
     font-weight: 650;
     font-family: 'Open Sans', sans-serif;
     margin: 0 auto;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);  
+    border-radius: 10px 10px 0 0
   }
 
 .conteudolivro h2 {
@@ -17,8 +19,8 @@
     flex-direction: column;
     align-items: center;
     padding: 0.25em;
-    color: rgb(255, 255, 255);
-    background-color:  rgb(23, 74, 168);
+    color: var(--color-textwhite);
+    background-color: var(--color-primary);
     font-weight: 650;
     font-family: 'Open Sans', sans-serif;
   }
@@ -42,28 +44,31 @@
       flex-direction: column;
       align-items: center;
       padding: 0.5em;
-      color: rgb(37, 92, 129);
-      background-color: rgb(175, 215, 223);
+      color: var(--color-textblack);
+      background-color: var(--color-lightgray);
       font-weight: 750;
       font-family: 'Open Sans', sans-serif;
       margin: 0 auto;
+      box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);  
+      border-radius: 0 0  10px 10px
     }
 
 .conteudolivro tr {
-      color: rgb(255, 255, 255);
-      background-color:  rgb(50, 102, 199);
+      color: var(--color-textwhite);
+      background-color: var(--color-tertiary);
     
 }
     
 .conteudolivro td {
-        color: rgb(37, 92, 129);
-        background-color: rgb(175, 215, 223);
+        color: var(--color-textblack);
+        background-color: var(--color-lightgray);
+        border-bottom: 1px solid var(--color-textwhite);
       
 }
     
   
 .conteudolivro table {
-      width:auto;
+      width: 100%;
       background-color:rgb(175, 215, 223);
       color: rgb(37, 92, 129);
       font-family: 'Open Sans', sans-serif;

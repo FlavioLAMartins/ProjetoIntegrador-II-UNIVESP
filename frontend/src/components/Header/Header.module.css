@@ -13,6 +13,9 @@
     line-height: 60px;
 }
 
+img {
+    width: 50px;
+}
 a {
     text-decoration: none;
 }

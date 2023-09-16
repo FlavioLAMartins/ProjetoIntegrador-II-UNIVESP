@@ -136,7 +136,7 @@ function Retirada() {
               name="devolucao_prevista" type="date" className="form-control"/>
             </div>
             <br/> 
-            <input type="submit" className="btn btn-success" value="Cadastrar"></input>
+            <input type="submit" className="btn btn-dark" value="Cadastrar"></input>
               
           </div>
         </form>
@@ -164,7 +164,7 @@ function Retirada() {
       <td>
         <button
           onClick={() => setRetiradaSelecionado(retid)}
-          className="btn btn-info"
+          className="btn btn-dark"
         >
           Editar
         </button>
@@ -172,7 +172,7 @@ function Retirada() {
       <td>
         <button
           onClick={() => excluir(retid.id)}
-          className="btn btn-warning"
+          className="btn btn-danger"
         >
           Devolver
         </button>

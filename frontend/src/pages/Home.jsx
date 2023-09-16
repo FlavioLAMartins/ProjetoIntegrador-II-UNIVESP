@@ -11,7 +11,7 @@ function Home() {
 
     //tabela retorna os dados do db com botão para alterar e exluir
   return (
-    <div className="container">
+    <div className="container" >
         <br/><br/><br/><br/>
       <h1> Acesso aos Serviços</h1> <br/>
         <table class="table">

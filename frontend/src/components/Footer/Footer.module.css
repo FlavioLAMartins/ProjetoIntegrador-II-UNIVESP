@@ -5,11 +5,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(10, 54, 136);
-    color:beige;
+    background-color: var(--color-primary);
+    color:var(--color-textwhite);
     border-top: 1 px solid;
     padding-block: 1em;
     border-top: 2px solid #e7e6e4;
+    box-shadow: 10px 4px 32px rgba(255, 255, 255, 0.3);  
 
 }
 
@@ -17,3 +18,4 @@
     font-size: 1.5em;
     font-weight: 300;
 }
+

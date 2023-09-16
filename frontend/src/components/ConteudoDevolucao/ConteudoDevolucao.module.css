@@ -17,8 +17,8 @@
     flex-direction: column;
     align-items: center;
     padding: 0.25em;
-    color: rgb(255, 255, 255);
-    background-color:  rgb(23, 74, 168);
+    color: var(--color-textwhite);
+    background-color:  var(--color-primary);
     font-weight: 650;
     font-family: 'Open Sans', sans-serif;
   }
@@ -39,7 +39,7 @@
   
   .conteudoDevolucao tr {
   color: rgb(255, 255, 255);
-  background-color:  rgb(50, 102, 199);
+  background-color:  var(--color-tertiary);
 
   }
 

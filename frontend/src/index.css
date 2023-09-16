@@ -11,7 +11,9 @@ body,
   width: 100%;
 }
 
-
+body {
+  background-color: #efeff0;
+}
 
 /* variáveis de cor */
 :root {
@@ -23,4 +25,3 @@ body,
   --color-textblack: #212529;
   --color-textwhite: #ffffff;
 }
-

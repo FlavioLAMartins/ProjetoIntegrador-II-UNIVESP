@@ -101,7 +101,7 @@ function Livro() {
               name="ano_edicao" type="text" className="form-control"/>
             </div>
             <br/> 
-            <input type="submit" className="btn btn-success" value="Cadastrar"></input>
+            <input type="submit" className="btn btn-dark" value="Cadastrar"></input>
               
           </div>
         </form>
@@ -132,14 +132,14 @@ function Livro() {
 
           <button 
           onClick={()=>setLivroSelecionado(livr)} 
-          className='btn btn-info'
+          className='btn btn-dark'
           >Alterar
           </button> 
         </td>
         <td>
           <button 
           onClick={()=>excluir(livr.id)} 
-          className='btn btn-warning'
+          className='btn btn-danger'
           >Excluir
           </button>
          

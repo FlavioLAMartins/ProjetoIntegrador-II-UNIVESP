@@ -1,9 +1,8 @@
 import Styles from './Header.module.css'
 import { Link, useLocation } from 'react-router-dom'
-
+import Logolibrary from './logo-library.png'
 function Header() {
   const location = useLocation()
-
   //Verificar se esta na pagina de login
 
   const isLoginPage = location.pathname === '/'
@@ -11,7 +10,9 @@ function Header() {
   return (
     <nav className={Styles.header}>
       <Link to="/home" className={Styles.logo}>
-        <span>📚 Biblio Manager</span>
+        <span>
+          <img src={Logolibrary} alt="" /> Biblio Manager
+        </span>
       </Link>
       {!isLoginPage && (
         <nav>

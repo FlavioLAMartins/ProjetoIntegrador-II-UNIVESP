@@ -90,7 +90,7 @@ function Leitor() {
             </div>
             
             <br/> 
-            <input type="submit" className="btn btn-success" value="Cadastrar"></input>
+            <input type="submit" className="btn btn-dark" value="Cadastrar"></input>
               
           </div>
         </form>
@@ -118,14 +118,14 @@ function Leitor() {
 
           <button 
           onClick={()=>setObjetoSelecionado(obj)} 
-          className='btn btn-info'
+          className='btn btn-dark'
           >Alterar
           </button> 
           </td> 
           <td>   
           <button 
           onClick={()=>excluir(obj.id)} 
-          className='btn btn-warning'
+          className='btn btn-danger'
           >Excluir
           </button>
          
