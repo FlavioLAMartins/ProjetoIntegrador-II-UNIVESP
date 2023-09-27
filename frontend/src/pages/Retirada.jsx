@@ -100,7 +100,7 @@ function Retirada() {
               <select 
               onChange={hadleChangeRetirada} 
               value={retiradaSelecionado.id_leitor || ''} 
-              name="id_leitor" type="select" className="form-control">  
+              name="id_leitor" type="select" className="form-control" required>  
 
               <option value="-">Selecione o Leitor</option>
               {idleitor.map(leitor => (
@@ -114,7 +114,7 @@ function Retirada() {
             <select 
               onChange={hadleChangeRetirada} 
               value={retiradaSelecionado.id_livros || ''} 
-              name="id_livros" type="select" className="form-control"> 
+              name="id_livros" type="select" className="form-control" required> 
 
               <option value="-"> Selecione o Livro</option>
               {idlivros.map(livros => (
@@ -127,13 +127,13 @@ function Retirada() {
               <label className="form-label">Data da Retirada:</label>
               <input onChange={hadleChangeRetirada} 
               value={retiradaSelecionado.data_retirada || ''} 
-              name="data_retirada" type="date" className="form-control"/>
+              name="data_retirada" type="date" className="form-control" required/>
             </div>
             <div>
               <label className="form-label">Devolução Prevista:</label>
               <input onChange={hadleChangeRetirada} 
               value={retiradaSelecionado.devolucao_prevista || ''} 
-              name="devolucao_prevista" type="date" className="form-control"/>
+              name="devolucao_prevista" type="date" className="form-control" required/>
             </div>
             <br/> 
             <input type="submit" className="btn btn-dark" value="Cadastrar"></input>

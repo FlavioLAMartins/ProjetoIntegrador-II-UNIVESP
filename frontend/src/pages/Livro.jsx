@@ -71,16 +71,17 @@ function Livro() {
               <label className="form-label">Título:</label>
               <input onChange={hadleChangeLivro} 
               value={livroSelecionado.titulo || ''} 
-              name="titulo" type="text" className="form-control"/>
+              name="titulo" type="text" className="form-control"
+              required/>
             </div>
             <div>
               <label className="form-label">Autor:</label>
               <input onChange={hadleChangeLivro} value={livroSelecionado.autor || ''}
-              name="autor" type="text" className="form-control"/>
+              name="autor" type="text" className="form-control" required/>
             </div>
             <div>
             <label className="form-label">Gênero:</label>
-            <select 
+            <select required
               onChange={hadleChangeLivro} value={livroSelecionado.genero || ''} 
               name="genero" type="text" className="form-control">
               
@@ -93,12 +94,12 @@ function Livro() {
             <div>
               <label className="form-label">Número de Páginas:</label>
               <input onChange={hadleChangeLivro} value={livroSelecionado.nmr_pagina || ''} 
-              name="nmr_pagina" type="number" className="form-control"/>
+              name="nmr_pagina" type="number" className="form-control" required/>
             </div>
             <div>
               <label className="form-label">Ano da Edição:</label>
               <input onChange={hadleChangeLivro} value={livroSelecionado.ano_edicao || ''} 
-              name="ano_edicao" type="text" className="form-control"/>
+              name="ano_edicao" type="text" className="form-control" required/>
             </div>
             <br/> 
             <input type="submit" className="btn btn-dark" value="Cadastrar"></input>

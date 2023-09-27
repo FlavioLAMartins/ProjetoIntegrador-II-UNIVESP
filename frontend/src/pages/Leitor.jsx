@@ -69,24 +69,24 @@ function Leitor() {
               <label className="form-label">Nome:</label>
               <input onChange={hadleChangeLivro} 
               value={objetoSelecionado.nome || ''} 
-              name="nome" type="text" className="form-control"/>
+              name="nome" type="text" className="form-control" required/>
             </div>
             <div>
               <label className="form-label">Sobrenome:</label>
               <input onChange={hadleChangeLivro} 
               value={objetoSelecionado.sobrenome || ''} 
-              name="sobrenome" type="text" className="form-control"/>
+              name="sobrenome" type="text" className="form-control" required/>
             </div>
             <div>
               <label className="form-label">Idade:</label>
               <input onChange={hadleChangeLivro} 
               value={objetoSelecionado.idade || ''} 
-              name="idade" type="text" className="form-control"/>
+              name="idade" type="text" className="form-control" required/>
             </div>
             <div>
               <label className="form-label">R.A:</label>
               <input onChange={hadleChangeLivro} value={objetoSelecionado.ra || ''}
-              name="ra" type="text" className="form-control"/>
+              name="ra" type="text" className="form-control" required/>
             </div>
             
             <br/> 
